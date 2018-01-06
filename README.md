@@ -12,7 +12,7 @@ Here is how the process works,
    1. _**Optionally**_: Sends you an SNS Notification email to let you know what the change was, who made it, and that the change was reverted
 
 
-![Fig : Valaxy-Serverless-Security-Group-Sentry](https://raw.githubusercontent.com/miztiik/serverless-ebs-penny-pincher/master/images/serverless-ebs-penny-pincher.jpg)
+![Fig : Valaxy-Serverless-Security-Group-Sentry](https://raw.githubusercontent.com/miztiik/serverless-sg-sentry/master/images/Valaxy-Serverless-Security-Group-Sentry.png)
 
 ## Pre-Requisities
 We will need the following pre-requisites to successfully complete this activity,
