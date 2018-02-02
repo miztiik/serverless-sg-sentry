@@ -17,7 +17,8 @@ Here is how the process works,
 ## Pre-Requisities
 We will need the following pre-requisites to successfully complete this activity,
 - `AWS CloudTrail` must be enabled in the AWS Region where the solution is deployed
-- A `VPC` with a custom `Security Group` that we will monitor
+- `VPC` with custom `Security Group` that we intend to monitor. 
+  - _Note down the security group id, we will need it later to update the lambda function_
 - IAM Role - _i.e_ `Lambda Service Role` - _with_ `EC2FullAccess` _permissions_
   - _You may use an `Inline` policy with more restrictive permissions_
 
@@ -151,9 +152,8 @@ We have demonstrated how you can automatically revert changes to a VPC security 
 
 ## Customizations
 You can use many of the lamdba configurations to customize it suit your needs,
-
-- `Concurrency`:_Increase as necessary to manage all your instances_
-- `Memory` & `Timeout`: _If you have a large number of instances, you want to increase the `Memory` & `Timeout`_
+- Create a `SNS` topic and subscribe to it
 - `Security`: _Run your lambda inside your `VPC` for added security_
+  - Use a custom IAM Policy with _restrictive_ permissions
 
 
