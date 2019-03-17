@@ -2,6 +2,8 @@
 If one of your staff members (inadvertently | mischievously) modifies your VPC security group to allow SSH access to the world,
 you want the change to be automatically reverted and then receive a notification that the change to the security group was automatically reverted.
 
+#### Follow this article in [Youtube](https://www.youtube.com/watch?v=yLO27moAbZI&list=PLxzKY3wu0_FKok5gI1v4g4S-g-PLaW9YD&index=4&t=0s)
+
 ## Automatically Revert and Receive Notifications About Changes to Your Amazon VPC Security Groups
 
 Here is how the process works,
